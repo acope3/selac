@@ -1,0 +1,6 @@
+Run,Working_Directory,Tree_File,Codon_Data_Path,Output_Path,Num_Cores_Gene,Num_Cores_Site,Optimizer
+1,./,tree_rokas.tre,aln_rokas_cut/,aln_rokas_cut/SBPLX/,4,1,NLOPT_LN_SBPLX
+2,./,tree_rokas.tre,aln_rokas_cut/,aln_rokas_cut/PRAXIS/,4,1,NLOPT_LN_PRAXIS
+3,./,tree_rokas.tre,aln_rokas_cut/,aln_rokas_cut/COBYLA/,4,1,NLOPT_LN_COBYLA
+4,./,tree_rokas.tre,aln_rokas_cut/,aln_rokas_cut/BOBYQA/,4,1,NLOPT_LN_BOBYQA
+5,./,tree_rokas.tre,aln_rokas_cut/,aln_rokas_cut/NELDERMEAD/,4,1,NLOPT_LN_NELDERMEAD
